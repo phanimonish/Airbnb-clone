@@ -1,0 +1,23 @@
+.product-card{
+    border: none !important;
+    outline: none;
+}
+.prd-img{
+    height: 40vh;
+    border-radius: 20px;
+}
+.card-text{
+    text-align: left;
+}
+.u-text{
+    text-decoration: underline !important;
+}
+.card-right-cnt{
+    display: flex;
+    height: 18px;
+    width: 20px;
+    text-align: right;
+}
+p{
+    font-size: 14px;
+}

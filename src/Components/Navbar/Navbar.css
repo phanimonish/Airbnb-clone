@@ -1,0 +1,86 @@
+.navbar-1 {
+  height: 80px;
+  border-bottom: 1px solid rgb(227, 227, 227);
+  background-color: #fff;
+  align-items: center;
+}
+.navb{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+.search-div {
+  border: 1.5px solid rgb(227, 227, 227);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  min-width: 360px;
+  align-items: center;
+  height: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px #f7f7f7;
+}
+
+.search-component {
+  background-color: transparent;
+  border: 0;
+  padding: 8px;
+}
+.light-txt {
+  font-weight: 400;
+  color: #989696;
+}
+.search-btn-div {
+  background-color: #ff385c;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 3px;
+}
+.borderRemove {
+  background-color: transparent;
+  border: 0;
+}
+.profile-div {
+  border: 1.5px solid rgb(227, 227, 227);
+  min-width: 90px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: 0px 5px 5px #f7f7f7;
+  padding-left: 0;
+}
+.right-content {
+  display: flex;
+  justify-content: end;
+}
+.location{
+  width: 50px;
+}
+.location:hover{
+  background-color: #f7f7f7;
+  border-radius: 50%;
+}
+.txt-btn{
+  width: 140px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.txt-btn:hover{
+  background-color: #f7f7f7;
+  border-radius: 30px;
+}
+.hover-effect:hover{
+  box-shadow: -1px 2px 5px #dad4d4;
+}
+
+@media only screen and (max-width: 1050px) {
+  .search-div {
+    border: 1.5px solid rgb(227, 227, 227);
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 5px #f7f7f7;
+    margin-left: 0%;
+  }
+}

@@ -1,0 +1,72 @@
+.filter-img {
+  width: 20px;
+  text-align: center;
+  
+}
+.filterbar {
+  position: sticky;
+  top: 80px;
+  border-bottom: 1px solid rgb(227, 227, 227);
+  background: #fff;
+  height: 70px;
+  display: flex;
+  padding-top: 10px;
+  z-index: 1;
+}
+.f-img{
+    text-align: center;
+}
+
+.filter-cont{
+    width: 65%;
+}
+
+.react-multiple-carousel__arrow{
+    background: #fff;
+    border: 1px solid rgb(227, 227, 227);
+    margin-top: -10px;
+    min-width: 38px;
+    min-height: 35px;
+    z-index: 0 ;
+
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    background-color: #fff;
+    margin-right: -3.5%;
+    
+} 
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    background-color: #fff;
+    margin-left: -3%;
+} 
+.react-multiple-carousel__arrow--right::before {
+    content: url("/src/Components/Images/right.png");
+    padding-top: 5px;
+    font-weight: bolder;
+    color: #000;
+    
+}
+.react-multiple-carousel__arrow--left::before {
+    content: url("/src/Components/Images/left.png");
+    font-weight: bolder;
+    color: #000;
+    padding-top: 5px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid rgb(227, 227, 227);
+    border-radius: 10px;
+}
+.tax{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid rgb(227, 227, 227);
+    border-radius: 10px;
+}
+.toggle{
+    min-height: 20px;
+    min-width: 100%;
+}

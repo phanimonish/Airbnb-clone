@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Filterbar from "./Components/FIlterbar/Filterbar";
+import Navbar from "./Components/Navbar/Navbar";
+import Card from "./Components/Card/Card.jsx"
+import ProductLayout from "./ProductLayout/ProductLayout.jsx";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="top-link">
+        <button className="borderRemove top-link">
+          <p className="pt-3">
+            Learn about Great Favourites, the most loved homes on Airbnb
+          </p>
+        </button>
+      </div>
+      <Navbar />
+      <Filterbar />     
+      <ProductLayout/>
+      <ProductLayout/>
+      <ProductLayout/>
+
+
     </div>
   );
 }
